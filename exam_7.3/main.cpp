@@ -15,15 +15,15 @@ struct student{
 struct people{
     string referee;//裁判
     string people;
-    double score[10];
+    double score[7];
 };
 bool cmp(student s1,student s2)
 {
     return s1.ave>s2.ave;
 }
 int main() {
-    student t[10];
-    people k[10];
+    student t[statistics];
+    people k[statistics];
     int i,j;
     ofstream inf("/Users/s20181106278/Desktop/myinf.txt");
     ifstream onf("/Users/s20181106278/Desktop/onf.txt");
