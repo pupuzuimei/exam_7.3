@@ -40,7 +40,7 @@ int main() {
     {
         for(j=0;j<7;j++)
         {
-            enf>>k[j].people;
+            enf>>k[j].referee;
         }
         for(j=0;j<statistics;++j)//输入裁判打的分数n
         {
@@ -48,6 +48,7 @@ int main() {
             {
                 enf>>k[j].score[i];
             }
+            enf>>k[j].people;
         }
         enf.close();
     }
@@ -84,3 +85,4 @@ int main() {
     }
     return 0;
 }
+
